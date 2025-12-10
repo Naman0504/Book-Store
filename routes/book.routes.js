@@ -4,7 +4,7 @@ const controller = require("../controllers/book.controller.js")
 
 router.get('/', controller.getAllBooks)
 
-router.get('/:id',controller.getAllBooks)
+router.get('/:id',controller.getBookById)
 
 router.post('/',controller.createBook )
 
